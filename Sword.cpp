@@ -10,6 +10,10 @@ Sword::Sword( )
    durability = 14;
 }
 
+void Sword::damage(){
+    durability -= 2;
+}
+
 Sword::~Sword( )
 {  
 
